@@ -1,0 +1,200 @@
+
+/*Estas son clases globales para que el proyecto se visualice bien */
+body {
+    margin:0;
+    padding:0;
+  }
+
+@font-face {
+    font-family: fuenteBold;
+    font-family: fuenteBook;
+
+    src: url("../Futura/FuturaPTBold.otf");
+    src: url("../Futura/FuturaPTBook.otf");
+ }
+h1{
+    font-family: fuenteBook;
+    text-align:center;
+    margin-top: 2rem;
+ }
+
+h3{
+   margin-top: 0.5rem;
+   text-align: center;
+ 
+}
+/* Aqui termina las clases globales */
+ 
+
+/* Aqui comienza el logo*/
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10rem;
+    margin-top: 1rem;
+}
+/*Aqui termina el logo*/
+
+
+/* Solo es el emcabezado */
+.emcabezado{
+    border: .5rem solid #000657;
+    max-width: auto;
+    opacity: 1;
+}
+.tex{
+    font-family: fuenteBook;
+    margin-top: 1rem;
+}
+.vertical{
+
+    border: .5rem solid #686868;
+    max-width: auto;
+    margin-top: 1rem;
+     
+}
+.vl {
+    border-left: 1rem solid #000657 ;
+    margin-top: -2rem;
+    margin-left: 40px;
+    display: block;
+}
+/*Aqui termina*/
+
+
+
+/*Comienza el menu*/
+#vl2{
+    min-width:  100px;
+    margin-top: -1rem;
+    margin-bottom: 3rem;
+}
+.hr2{
+    border-top: 1rem solid #000657;
+    width: 10rem;
+    margin-left: 2.5rem;
+    opacity: 1;
+}
+p{
+    margin-top: 3rem;
+    margin-right: 3rem;
+    font-family: fuenteBook;
+    font-size: 1.5rem;
+}
+
+
+ 
+.input-label{
+    border: rgb(122, 122, 122) 3px  solid;
+    border-radius: 0.5rem;
+    
+}
+.form-check{
+    border: 1px  solid  #4d5061;
+    width: 200px;
+    border-radius: 5px;
+    margin-left: 2rem;
+    
+}
+.campo{
+    width: 90%;
+}
+
+.imagen{
+    margin-top: 3rem;
+    width: 5rem;
+    filter:drop-shadow( 0em -4px 5px rgb(66, 66, 66)) ;
+    
+}
+.imagen:hover{
+    transform: scale(1.3); 
+    transition: .1s ease;
+ 
+ 
+}
+
+
+@media (max-width: 576px) {
+    .imagen{
+        width: 3rem;
+        margin-left: 1rem;
+    } 
+    p{
+        font-size: 1rem;
+    }
+     
+}
+@media (max-width: 768px) {
+    .imagen{
+        width: 4rem;
+        margin-left: 2rem;
+     
+    }
+}
+@media (max-width: 992px) {
+    .imagen{
+        width: 2rem;
+        margin-left: 0rem;
+        
+    } 
+    .tex{
+        font-size: 1rem;
+    }
+     p{
+         font-size: 1rem;
+     }
+     .inciso{
+    margin: auto;
+    margin-left: 6rem;
+    align-items: flex-end;
+    }
+    .campo{
+        width: 90%;
+      
+    }
+    .imagen:hover{
+        transform: scale(1.4); 
+        transition: .1s ease;
+        width:  -10px;
+        right: 10px;
+     
+    
+    }
+} 
+/* Aqui termina el menu*/
+@media (max-width: 768px) {
+    .p-col{
+        margin-top: .5rem;
+    }
+}
+
+
+/*Footer*/
+footer{
+  background-color: rgb(0, 0, 0);
+  padding-bottom: 3rem;
+}
+.p-ccima{
+    font-size: 1.6rem;   
+    color: aliceblue;
+    margin: 1rem;
+}
+.imagen-iconno{
+    width: 1.5rem;
+}
+.imagen-iconno:hover{
+    transform: scale(1.3); 
+    
+    transition: .1s ease;
+}
+div{
+    overflow: hidden;
+}
+form{
+    margin-left: 10rem;
+}
+ 
+
+
+ 
